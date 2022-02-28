@@ -266,6 +266,7 @@ namespace JogoDaVelha_CSharp
             this.btn_Reset.TabIndex = 9;
             this.btn_Reset.Text = "Resetar";
             this.btn_Reset.UseVisualStyleBackColor = false;
+            this.btn_Reset.Click += new System.EventHandler(this.btn_Reset_Click);
             // 
             // Form1
             // 
